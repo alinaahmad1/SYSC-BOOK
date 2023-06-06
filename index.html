@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>SYSCBOOK - Main</title>
+   <link rel="stylesheet" href="assets/css/reset.css" />
+   <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+   <header>
+      <h1>SYSCBOOK</h1>
+      <p>Social media for SYSC students in Carleton University</p>
+   </header>
+   <nav>
+    <div class="left">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a>Log out</a></li>
+        </ul>
+    </div>
+   </nav>
+   <main>
+      <section>
+	  
+         <form method="post" action="https://ramisabouni.com/sysc4504/process_index.php">
+            <fieldset>
+               <legend><span>New Post</span></legend>
+			   <table>
+			   <tr>
+			   <td><textarea maxlength="500" name="post" placeholder="What's on your mind? (max 500 char)"></textarea></td>
+			   </tr>
+			   <tr>
+			   <td><p><input type="submit" value="post" name="post"><input type="reset"></p><td>
+			   </tr>
+			   </table>
+            </fieldset>
+         </form>
+		 
+		 <details>
+		<summary>Post 1</summary>
+		<p>I would like to get a JOB before March 2023</p>
+	   </details>
+	   <details>
+		<summary>Post 2</summary>
+		<p>WHY IS ENGINEERING SO HARD?</p>
+	   </details>
+	   <details>
+		<summary>Post 3</summary>
+		<p>I love my cat CHEETO</p>
+	   </details>
+		 
+
+      </section>
+   </main>
+</body>
+</html>
